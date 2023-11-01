@@ -1,0 +1,53 @@
+.rodape-inicial{
+    width: 1140px;
+   height: 100px;
+   
+}
+.logo-inicial{
+    margin-left: 50px;
+}
+.titulo-inicial{
+    margin-left: 365px;
+    margin-top: -100px;
+    color: lightslategrey;
+    font-family: Open Sans
+}
+.rodape-imagem{
+    margin-left: 1000px;
+    margin-top: -148px;
+}
+.corpo-inicial{
+    width: 1228px;
+    height: 500px;
+    background: lightpink;
+    margin-top: 100px;
+
+}
+.titulo-corpo{
+    margin-left: 100px;
+     margin-top: -390px;
+     font-family: Open Sans;
+     color: lightslategray;
+}
+.text-corpo{
+    margin-left: 100px;
+    font-family: Open Sans;
+    color: lightslategray;
+    margin-top: 20px;
+}
+.entre-em-contato{
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    border-radius: 60px;
+    background: pink;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.entre-em-contato-text{
+    color: lightslategray;
+    font-family: Open Sans;
+    font-size: 20px;
+}
