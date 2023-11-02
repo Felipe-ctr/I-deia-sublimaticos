@@ -21,7 +21,18 @@
 <h1 class="titulo-corpo">As melhores canecas,<br> por preços acessíveis</h1>
 <h2 class="text-corpo">Aqui temos qualidade e competecia,<br> nosso cliente monta sua arte do jeito que preferir</h2>
 <div onclick="acao()" class="entre-em-contato">Entre em contato</div>
-<div class="modal"><div onclick="fechar()" class="fechar"></div></div>
+<div class="modal">
+    <form action="cadastro.php" method="get">
+        <p>
+        <label for="iemail"></label>
+        <input type="email" name="email" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" name="Limpar" id="">
+        </p>
+    </form>
+    <div onclick="fechar()" class="fechar"></div></div>
 
 <script src="./src/js/script.js"></script>
 </body>
