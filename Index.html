@@ -22,17 +22,30 @@
 <h2 class="text-corpo">Aqui temos qualidade e competecia,<br> nosso cliente monta sua arte do jeito que preferir</h2>
 <div onclick="acao()" class="entre-em-contato">Entre em contato</div>
 <div class="modal">
-    <form action="cadastro.php" method="get">
+    <form action="https://formsubmit.co/andreia.s.ueda@gmail.com" method="post" >
         <p>
-        <label for="iemail"></label>
-        <input type="email" name="email" required>
+        <label for="name">Nome</label>
+        <input type="text" class="iname" name="Nome" required>
         </p>
         <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" name="Limpar" id="">
+        <label for="iemail">E-mail</label>
+        <input class="iemail" type="email" name="email" required>
+        </p>
+
+        <p>
+            <label for="Numero">Telefone</label>
+            <input  class="itelefone" type="text" type="tel" type="tel" name="numero" autocomplete="tel" pattern="^[0-9]{5}-[0-9]{4}$" required>
+
+        </p>
+        <p>
+            <input class="enviar" type="submit" value="Enviar">
+            <input class="limpar" type="reset" name="Limpar" id="">
+        </p>
+            
+            
         </p>
     </form>
-    <div onclick="fechar()" class="fechar"></div></div>
+    <div onclick="fechar()" class="fechar"><img src="./src/img/I-deia-fechar.jpg" alt=""></div></div>
 
 <script src="./src/js/script.js"></script>
 </body>

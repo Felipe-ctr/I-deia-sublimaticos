@@ -56,7 +56,7 @@
 .modal{
     width: 500px;
     height: 500px;
-    background: pink;
+    background: palevioletred;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -72,18 +72,39 @@
     from{opacity: 0;}
 }
 .fechar{
-    width: 30px;
-    height: 30px;
-    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin-left: 420px;
+    margin-top: -150px;
     border-radius: 50%;
-    margin-left: 90%;
-    margin-top: 30px;
-    animation: animate;
-    animation-duration: 800ms;
-    border: 1px solid black;
+    color: pink;
+
 
 }
 .fechar:hover{
     background: pink;
+}
+.iemail{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px  ;
+}
+.enviar{
+margin-left: 65px;
+border-radius: 5px;
+margin-top: 10px;
+}
+.limpar{
+    border-radius: 5px;
+}
+.iname{
+    margin-left: 25px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+.itelefone{
+    margin-left: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
